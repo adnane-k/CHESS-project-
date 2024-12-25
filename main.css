@@ -1,0 +1,104 @@
+body{
+  background-color: black;
+  color: ghostwhite;
+}
+h1{
+  color: #BBB2897D;
+}
+.head img{
+  padding-left: 10px;
+  margin-left: -10px; 
+}
+.head{
+  display: flex;
+  background-color: black;
+  padding-top: 10px;
+  padding-right: 100px;
+  align-items: center;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  justify-content: center;
+}
+.nav lu{
+}
+.nav a {
+  padding: 12px;
+  text-decoration: none;
+  background-color: #1A221CCF;
+  border-radius: 5px;
+  font-size: 25px;
+  color: #FFFFFFCF;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.nav a:hover{
+  border-top: 2px solid #35363EC2;
+  border-bottom: 2px solid #35363EC2;
+}
+.chessTable{
+  background-image: url(board.jpeg);
+  background-size: cover;
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-bottom: 2px solid #4A4B536E;
+}
+.chessTable img{
+  height: 21.875rem; 
+  width: 15.625rem;
+  padding: 0.0625rem; 
+  margin: 0 -4.4375rem 0.625rem; 
+}
+.peices:hover .img{
+  filter: grayscale(3) blur(3px);
+}
+.peices:hover .img:hover{
+  filter: none;
+  width: 17.5rem; 
+  padding: 1.25rem 1.875rem; 
+  transition: 300ms ease;
+}
+.whatIsChess{
+}
+.whatIsChess h1{
+  clear: both;
+  text-align: center;
+}
+.whatIsChess p{
+  font-family: Palatino, URW Palladio L, serif;
+  margin-bottom: -3.125rem; 
+}
+.whatIsChess img{
+  width: 15.625rem; 
+  height: 12.5rem; 
+  border-radius: 0.625rem; 
+  margin: -1.875rem 0.625rem 1.875rem 0.625rem; 
+}
+.chessgame{
+  float: right;
+}
+.oldboard{
+  float: left;
+}
+.nofloat{
+  clear: both;
+}
+h2{
+  text-align: center;
+}
+h2 a{
+  color: ghostwhite;
+  background-image: url(green.jpeg);
+  background-size: cover;
+  text-decoration: none;
+  border-bottom: 2px solid grey;
+  border-radius: 0.625rem; 
+  padding: 0.1875rem 0.4375rem 0.1875rem 0.5rem; 
+  font-size: 1.0625rem; 
+  font-family: sans-serif;
+}

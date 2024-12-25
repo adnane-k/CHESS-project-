@@ -1,0 +1,101 @@
+.login{
+  background-color: #F5AC4D ;
+
+}
+.login{
+  background-image: url(Login.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+  
+
+
+.slider{
+ display: flex;
+ justify-content: space-evenly;
+}
+
+.span , 
+#login{
+  text-align: center;
+  background-color:#E7F1FF9C;
+  border-radius: 10px;
+  border: 2px solid #E7F1FF96;
+  padding: 3.5em 3em 3.5em 3em;
+  font-size: 20px;
+  
+}
+input{
+  margin: 5px;
+  padding: 1em 4em 1em 3em;
+}
+.button{
+  background-color: #232427;
+  color: #FFFFFF;
+  width: 221px;
+  height: 37px;
+  border-radius: 5px;
+  margin: 5px;
+  border: 1px solid #50545AC7;
+  font-size: 20px;
+  text-decoration: none;
+ 
+  
+}
+
+.button{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.profile{
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+
+.remember{
+  display: flex;
+  font-size: 18px;
+  color: #50515AA8;
+}
+.checkbox{
+  margin: 3px;
+  padding: 10px;
+}
+hr{
+  width: 45%;
+  border: none;
+  border-top: 2px solid #4F51627A;
+  
+}
+.hr{
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1B1F22A8;
+  margin-top: -15px;
+  
+}
+.sign{
+  width: 33px;
+  height: 30px;
+  
+  border: 1px solid #E7F1FF9C;
+  background-color:#E7F1FF9C;
+  border-radius: 50%;
+  
+}
